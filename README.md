@@ -30,7 +30,7 @@ Please, refer to:
 
 - the `IsoDate` class
 
-- the `Seconds` and `Milliseconds` type aliases
+- the `Milliseconds`, `Seconds` and `Minutes` type aliases
 
 - `delay()` and `epsilonDelay()` (especially for tests)
 
