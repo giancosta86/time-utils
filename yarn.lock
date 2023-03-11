@@ -319,12 +319,12 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.35.0.tgz#b7569632b0b788a0ca0e438235154e45d42813a7"
   integrity sha512-JXdzbRiWclLVoD8sNUjR443VVlYqiYmDVT6rGUEIEHU5YJW0gaVZwV2xgM7D4arkvASqD0IlLUVjHiFuxaftRw==
 
-"@giancosta86/more-immutable@^1.0.0-beta.1":
-  version "1.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@giancosta86/more-immutable/-/more-immutable-1.0.0-beta.1.tgz#1039a9a101b9d0c52ba65840eb8295eceb864062"
-  integrity sha512-93RIf60ghdzK9ohWmDWlt8CKD7jRXlvOyL9mAdTK+4dayP65+xhmNjBjz8E4mJBll8OGqG4UhQirscAZS5mD6Q==
+"@giancosta86/more-immutable@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@giancosta86/more-immutable/-/more-immutable-1.0.0.tgz#bb8fb375340b89b54b6132c5ee2d5bade151df28"
+  integrity sha512-DZgva44xulPm0ZSQYSXhYkjhKQG16LWrXJPFOiwLL/wWqzugbFPlexVB6c+dbtRlsyzdDYe4bLjYI6yE5xkG1A==
   dependencies:
-    immutable "^4.1.0"
+    immutable "^4.3.0"
     jest "^29.4.2"
     jest-extended "^3.2.3"
 
@@ -1939,10 +1939,10 @@ ignore@^5.2.0:
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.2.4.tgz#a291c0c6178ff1b960befe47fcdec301674a6324"
   integrity sha512-MAb38BcSbH0eHNBxn7ql2NH/kX33OkB3lZ1BNdh7ENeRChHTYsTvWrMubiIAMNS2llXEEgZ1MUOBtXChP3kaFQ==
 
-immutable@^4.1.0:
-  version "4.2.4"
-  resolved "https://registry.yarnpkg.com/immutable/-/immutable-4.2.4.tgz#83260d50889526b4b531a5e293709a77f7c55a2a"
-  integrity sha512-WDxL3Hheb1JkRN3sQkyujNlL/xRjAo3rJtaU5xeufUauG66JdMr32bLj4gF+vWl84DIA3Zxw7tiAjneYzRRw+w==
+immutable@^4.3.0:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/immutable/-/immutable-4.3.0.tgz#eb1738f14ffb39fd068b1dbe1296117484dd34be"
+  integrity sha512-0AOCmOip+xgJwEVTQj1EfiDDOkPmuyllDuTuEX+DDXUgapLAsBIfkg3sxCYyCEA8mQqZrrxPUGjcOQ2JS3WLkg==
 
 import-fresh@^3.0.0, import-fresh@^3.2.1:
   version "3.3.0"

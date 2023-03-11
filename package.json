@@ -1,6 +1,6 @@
 {
   "name": "@giancosta86/time-utils",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Time-related utilities",
   "keywords": [
     "time",
@@ -35,8 +35,8 @@
     "watch": "yarn compile-ts --watch"
   },
   "dependencies": {
-    "@giancosta86/more-immutable": "^1.0.0-beta.1",
-    "immutable": "^4.1.0"
+    "@giancosta86/more-immutable": "^1.0.0",
+    "immutable": "^4.3.0"
   },
   "devDependencies": {
     "@swc/core": "^1.2.218",
