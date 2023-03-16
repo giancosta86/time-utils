@@ -1,6 +1,6 @@
 {
   "name": "@giancosta86/time-utils",
-  "version": "1.1.1",
+  "version": "2.0.0",
   "description": "Time-related utilities",
   "keywords": [
     "time",
@@ -34,10 +34,7 @@
     "test:prod": "jest dist --testPathIgnorePatterns=/_.+",
     "watch": "yarn compile-ts --watch"
   },
-  "dependencies": {
-    "@giancosta86/more-immutable": "^1.0.0",
-    "immutable": "^4.3.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@swc/core": "^1.2.218",
     "@swc/jest": "^0.2.22",

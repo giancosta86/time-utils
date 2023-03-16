@@ -1,4 +1,3 @@
-import { testEqualsAndHashCode } from "@giancosta86/more-immutable";
 import { IsoDate } from "./IsoDate";
 
 describe("ISO date", () => {
@@ -42,8 +41,6 @@ describe("ISO date", () => {
       }).toThrow("Invalid date string: '1995-02'");
     });
   });
-
-  testEqualsAndHashCode(() => new IsoDate("1996-04-26"));
 
   describe("conversion to string", () => {
     describe("when the month and the day have 1 digit", () => {
