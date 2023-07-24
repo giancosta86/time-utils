@@ -1,5 +1,5 @@
-import { delay, epsilonDelay } from "./delays";
-import { getNowTimestamp } from "./Timestamp";
+import { delay, epsilonDelay } from "./delays.js";
+import { getNowTimestamp } from "./Timestamp.js";
 
 describe("Delay", () => {
   it("should actually introduce a delay", async () => {

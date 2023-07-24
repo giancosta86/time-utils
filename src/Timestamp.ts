@@ -1,4 +1,4 @@
-import { Milliseconds } from "./durations";
+import { Milliseconds } from "./durations.js";
 
 export type Timestamp = Milliseconds;
 

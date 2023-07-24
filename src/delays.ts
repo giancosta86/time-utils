@@ -1,4 +1,4 @@
-import { Milliseconds } from "./durations";
+import { Milliseconds } from "./durations.js";
 
 const epsilonDelayMillis = 15;
 
