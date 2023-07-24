@@ -1,6 +1,6 @@
 {
   "name": "@giancosta86/time-utils",
-  "version": "3.0.0-alpha.2",
+  "version": "3.0.0-alpha.3",
   "type": "module",
   "description": "Time-related utilities",
   "keywords": [
@@ -15,7 +15,9 @@
     "email": "gianluca@gianlucacosta.info",
     "url": "https://gianlucacosta.info/"
   },
-  "files": [],
+  "files": [
+    "dist"
+  ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": "giancosta86/time-utils",
