@@ -1,4 +1,8 @@
 {
+  "include": ["src/**/*"],
+
+  "files": ["global.d.ts"],
+
   "compilerOptions": {
     "target": "ES2019",
     "module": "ESNext",
@@ -23,8 +27,6 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
-    "noPropertyAccessFromIndexSignature": true,
-
-    "esModuleInterop": true
+    "noPropertyAccessFromIndexSignature": true
   }
 }
