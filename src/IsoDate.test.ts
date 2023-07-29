@@ -1,4 +1,4 @@
-import { IsoDate } from "./IsoDate.js";
+import { IsoDate } from "./IsoDate";
 
 describe("ISO date", () => {
   describe("constructor", () => {

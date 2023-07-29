@@ -1,13 +1,12 @@
 {
   "include": ["src/**/*"],
-
-  "files": ["global.d.ts"],
+  "exclude": ["**/*.test.ts"],
 
   "compilerOptions": {
     "target": "ES2019",
-    "module": "ESNext",
+    "module": "CommonJS",
 
-    "moduleResolution": "NodeNext",
+    "moduleResolution": "Node",
 
     "rootDir": "./src",
     "outDir": "./dist",

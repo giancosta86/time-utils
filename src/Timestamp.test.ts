@@ -1,5 +1,5 @@
-import { epsilonDelay } from "./delays.js";
-import { getNowTimestamp } from "./Timestamp.js";
+import { epsilonDelay } from "./delays";
+import { getNowTimestamp } from "./Timestamp";
 
 describe("Timestamp", () => {
   describe("for the current moment", () => {
