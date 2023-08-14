@@ -12,15 +12,9 @@ _Time-related utilities_
 
 ## Installation
 
-```bash
-npm install @giancosta86/time-utils
-```
+The package on NPM is:
 
-or
-
-```bash
-yarn add @giancosta86/time-utils
-```
+> @giancosta86/time-utils
 
 The public API entirely resides in the root package index, so one shouldn't reference specific modules.
 
