@@ -1,20 +1,19 @@
 import { epsilonDelay } from "./delays";
-import { getNowTimestamp } from "./Timestamp";
 
 describe("Timestamp", () => {
   describe("for the current moment", () => {
     it("should be a positive number", () => {
-      const timestamp = getNowTimestamp();
+      const timestamp = Date.now();
 
       expect(timestamp).toBePositive();
     });
 
     it("should keep track of time", async () => {
-      const firstTimestamp = getNowTimestamp();
+      const firstTimestamp = Date.now();
 
       await epsilonDelay();
 
-      const secondTimestamp = getNowTimestamp();
+      const secondTimestamp = Date.now();
 
       expect(secondTimestamp).toBeGreaterThan(firstTimestamp);
     });

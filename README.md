@@ -28,4 +28,4 @@ Please, refer to:
 
 - `delay()` and `epsilonDelay()` (especially for tests)
 
-- the `Timestamp` alias - and `getNowTimestamp()`
+- the `Timestamp` alias - especially useful with `Date.now()`

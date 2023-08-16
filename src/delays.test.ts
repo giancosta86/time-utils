@@ -1,15 +1,14 @@
 import { delay, epsilonDelay } from "./delays";
-import { getNowTimestamp } from "./Timestamp";
 
 describe("Delay", () => {
   it("should actually introduce a delay", async () => {
     const expectedDelayMillis = 60;
 
-    const start = getNowTimestamp();
+    const start = Date.now();
 
     await delay(expectedDelayMillis);
 
-    const end = getNowTimestamp();
+    const end = Date.now();
 
     const actualDelayMillis = end - start;
 
@@ -19,11 +18,11 @@ describe("Delay", () => {
 
 describe("Epsilon delay", () => {
   it("should actually introduce a delay", async () => {
-    const start = getNowTimestamp();
+    const start = Date.now();
 
     await epsilonDelay();
 
-    const end = getNowTimestamp();
+    const end = Date.now();
 
     const actualDelayMillis = end - start;
 
