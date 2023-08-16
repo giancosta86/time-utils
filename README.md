@@ -28,4 +28,6 @@ Please, refer to:
 
 - `delay()`, `epsilonDelay()` and `syncDelay` (especially for tests)
 
-- the `Timestamp` alias - especially useful with `Date.now()`
+- the `Timestamp` alias - greatly combined with `Date.now()`
+
+- `measureDuration` - to time both sync and async blocks (particularly in tests)
