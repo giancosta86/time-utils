@@ -5,13 +5,13 @@ export type Seconds = number;
 export type Minutes = number;
 
 export function measureDuration(
-  block: () => Promise<void>
+  block: () => Promise<unknown>
 ): Promise<Milliseconds>;
 
 export function measureDuration(block: () => void): Milliseconds;
 
 export function measureDuration(
-  block: () => Promise<void> | void
+  block: () => Promise<unknown> | void
 ): Promise<Milliseconds> | Milliseconds {
   const startInstant = Date.now();
 

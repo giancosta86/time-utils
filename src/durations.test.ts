@@ -14,6 +14,20 @@ describe("measureDuration()", () => {
     });
   });
 
+  describe("when applied to an async function", () => {
+    it("should work", async () => {
+      const duration = await measureDuration(async () => {
+        await delay(30);
+        await delay(30);
+        await delay(30);
+
+        return 92;
+      });
+
+      expect(duration).toBeGreaterThan(70);
+    });
+  });
+
   describe("when applied to a sync block", () => {
     it("should work", () => {
       const duration = measureDuration(() => {
