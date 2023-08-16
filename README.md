@@ -26,6 +26,6 @@ Please, refer to:
 
 - the `Milliseconds`, `Seconds` and `Minutes` type aliases
 
-- `delay()` and `epsilonDelay()` (especially for tests)
+- `delay()`, `epsilonDelay()` and `syncDelay` (especially for tests)
 
 - the `Timestamp` alias - especially useful with `Date.now()`

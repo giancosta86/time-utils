@@ -11,3 +11,11 @@ export function delay(milliseconds: Milliseconds): Promise<void> {
 export function epsilonDelay(): Promise<void> {
   return delay(epsilonDelayMillis);
 }
+
+export function syncDelay(milliseconds: Milliseconds): void {
+  const startMillis = Date.now();
+
+  while (Date.now() - startMillis < milliseconds) {
+    //Just do nothing
+  }
+}
