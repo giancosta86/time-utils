@@ -1,3 +1,3 @@
-# Version 4.0
+# Version 4
 
 - Removed `getNowTimestamp()` - just use `Date.now()` instead
