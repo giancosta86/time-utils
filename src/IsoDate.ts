@@ -1,4 +1,8 @@
 export class IsoDate {
+  static equals(left: IsoDate, right: IsoDate): boolean {
+    return left.unboxed.getTime() == right.unboxed.getTime();
+  }
+
   readonly unboxed: Date;
 
   constructor(source: string) {

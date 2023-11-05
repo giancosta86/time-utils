@@ -1,3 +1,4 @@
+import { Equality } from "@giancosta86/more-jest";
 import { IsoDate } from "./IsoDate";
 
 describe("ISO date", () => {
@@ -63,4 +64,9 @@ describe("ISO date", () => {
       });
     });
   });
+
+  Equality.test(
+    () => new IsoDate("2019-03-18"),
+    () => new IsoDate("1996-04-26")
+  );
 });
