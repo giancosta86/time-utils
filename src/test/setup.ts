@@ -1,4 +1,4 @@
-import { StaticEquality } from "@giancosta86/more-jest";
+import { Equality } from "@giancosta86/more-jest";
 import { IsoDate } from "../IsoDate";
 
-StaticEquality.addTesterFor(IsoDate);
+Equality.addTesterFor(IsoDate);

@@ -1,6 +1,6 @@
 {
   "name": "@giancosta86/time-utils",
-  "version": "4.2.0",
+  "version": "5.0.0",
   "description": "Time-related utilities",
   "keywords": [
     "time",
@@ -37,7 +37,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@giancosta86/more-jest": "^3.0.1",
+    "@giancosta86/more-jest": "^4.0.0",
     "@swc/core": "^1.3.95",
     "@swc/jest": "^0.2.29",
     "@types/jest": "^29.5.7",

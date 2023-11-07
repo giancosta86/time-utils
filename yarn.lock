@@ -341,12 +341,13 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.53.0.tgz#bea56f2ed2b5baea164348ff4d5a879f6f81f20d"
   integrity sha512-Kn7K8dx/5U6+cT1yEhpX1w4PCSg0M+XyRILPgvwcEBjerFWCwQj5sbr3/VmxqV0JGHCBCzyd6LxypEuehypY1w==
 
-"@giancosta86/more-jest@^3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@giancosta86/more-jest/-/more-jest-3.0.1.tgz#83bdbbaf1580e7962fc4e45aa2736f9a26f27388"
-  integrity sha512-kuI8QR/7Qjx+2D+mae+5NyE1iXgm1XMyGeWxdQWkvUnyImF9X+odOxfqbPVBTgZxlHa69LjKOdaFu75XBGqqZA==
+"@giancosta86/more-jest@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@giancosta86/more-jest/-/more-jest-4.0.0.tgz#64695d686d423536d8115a4df0c46b69015f04a3"
+  integrity sha512-6y7oFtBngdrJCIe0rBLYE5KGPbAjOtobFhZVDJGtOXwTqPa3oRLW91LKwqVVj4/tY3ZYujLH3l9LBE60+8ysnQ==
   dependencies:
     "@giancosta86/stream-utils" "^2.2.0"
+    "@giancosta86/swan-lake" "^1.0.0"
     "@rimbu/common" "^1.1.0"
     "@rimbu/list" "^1.1.0"
 
@@ -354,6 +355,11 @@
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@giancosta86/stream-utils/-/stream-utils-2.2.0.tgz#adf033649d9c92023bf28efe8bbe0f8dda4443b2"
   integrity sha512-hrzHesSuwGeYTBo8AOL1eoGF4C1pjt177uAJ4pOI5Auet0CTC5y92FDn2ru2IvDRYy3ZxDgoHAdf9FJYApwLHA==
+
+"@giancosta86/swan-lake@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@giancosta86/swan-lake/-/swan-lake-1.0.0.tgz#fbbc204a6d44f6b3e8ca55be848afa2cd0cfbe88"
+  integrity sha512-97xfs7DFUpr2nF5z19XBq8CrDIofo7eZKd+gN+hcmZhkJL/v26psqOnAWTLp9qveGiptgazAQ4wwFVHwXO1YEA==
 
 "@humanwhocodes/config-array@^0.11.13":
   version "0.11.13"
